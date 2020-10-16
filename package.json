@@ -1,0 +1,24 @@
+{
+  "name": "udemynodejs",
+  "version": "1.0.0",
+  "description": "Udemy guide NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xon358/UdemyNodeJS.git"
+  },
+  "author": "Xon",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Xon358/UdemyNodeJS/issues"
+  },
+  "homepage": "https://github.com/Xon358/UdemyNodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
