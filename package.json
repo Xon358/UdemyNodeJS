@@ -1,21 +1,31 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "udemynodejs",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "Udemy guide NodeJS",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
-    "start-server": "node app.js"
+    "start-server": "nodemon app.js"
   },
-  "author": "Maximilian Schwarzmüller",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xon358/UdemyNodeJS.git"
+  },
+  "author": "Xon",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Xon358/UdemyNodeJS/issues"
+  },
+  "homepage": "https://github.com/Xon358/UdemyNodeJS#readme",
   "devDependencies": {
     "nodemon": "^2.0.5"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   }
 }
